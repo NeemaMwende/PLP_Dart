@@ -1,17 +1,17 @@
 void main() {
-  int i = 11;
-  switch (i) {
+  String siblngs = "Michael";
+  switch (siblngs) {
     case 1:
-      print("The value is 1");
+      print("This is the first born");
       break;
     case 2:
-      print("The value is 2 ");
+      print("This is the second born");
       break;
     case 3:
-      print("the value is 3");
+      print("This is the third born");
       break;
     default:
-      print("The value is out of range ");
+      print("This is the last born");
       break;
   }
 }
